@@ -1,0 +1,24 @@
+.img-map img{
+    margin-top: 64px;
+    width: 100%;
+}
+.footer{
+    padding: 64px 16px;
+    text-align: center;
+}
+.footer .list-social{
+    justify-content: center;
+}
+.footer .social-icon{
+    color: rgba(0, 0, 0, 0.411);
+    margin-right: 5px;
+    font-size: 24px;
+    cursor: pointer;
+}
+.footer .social-icon:hover, .footer .copy-right a:hover{
+    color: #ccc;
+}
+.footer .copy-right, .footer .copy-right a{
+    color: rgba(0, 0, 0, 0.411);
+    font-size: 15px;
+}

@@ -1,0 +1,119 @@
+.content .item{
+    width: 800px;
+    padding: 64px 16px;
+    margin: 0 auto;
+}
+.content .item .title{
+    margin: 10px 0;
+    letter-spacing: 4px;
+    font-weight: 400;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.content .item .sub-title{
+    margin: 15px 0;
+    text-align: center;
+    opacity: .6;
+    font-style: italic;
+}
+.content .item .paragraph{
+    text-align: justify;
+    margin: 15px 0;
+    line-height: 1.4;
+}
+.content .item .list-img{
+    padding: 32px 0;
+    display: flex;
+}
+.item .list-img .member{
+    width: calc(100% / 3);
+    text-align: center;
+}
+.item .member .name{
+    margin: 15px 0;
+}
+.item .member img{
+    width: 154px;
+    margin-bottom: 16px;
+    border-radius: 4px;
+}
+.tour{
+    width: 100% !important;
+    background-color: #000;
+}
+.tour .title{
+    color: #fff;
+}
+.tour .sub-title{
+    color: #fff;
+}
+.item .form-date{
+    width: 768px;
+    margin: 0px auto;
+    background-color: #fff;
+}
+.form-date .date{
+    display: flex;
+    padding: 8px 16px;
+    border-bottom: 1px solid #ddd;
+    color: #787878;
+}
+.form-date .date .status{
+    background-color: #f44336;
+    color: #fff;
+    padding: 0 8px;
+    margin-left: 16px;
+}
+.form-date .date .flex{
+    flex: 1;
+}
+.form-date .date .ticket{
+    background-color: #000;
+    color: #fff;
+    border-radius: 100%;
+    padding: 0 8px;
+}
+.item .list-place{
+    padding: 32px 0px;
+    display: flex;
+    margin-bottom: 48px;
+}
+.item .list-place .item-place{
+    width: 245px;
+    background-color: #fff;
+    margin-right: 16.5px;
+}
+.item .list-place img{
+    width: 245px;
+}
+.item .list-place img:hover{
+    opacity: 0.6;
+}
+.item .list-place .infor{
+    padding:  0px 6px;
+}
+.list-place .infor .name-place{
+    margin: 15px 0;
+    font-weight: 700;
+}
+.list-place .infor .time{
+    opacity: .6;
+    margin-bottom: 15px;
+}
+.list-place .infor .button{
+    margin-top: 15px;
+    margin-bottom: 16px;
+    background-color: #000;
+    padding: 8px 16px;
+    display: inline-block;
+    color: #fff;
+    cursor: pointer;
+}
+.list-place .infor .button:hover{
+    color: #000!important;
+    background-color: #ccc!important;
+}
+.list-place .infor .button:active{
+    opacity: .6;
+}

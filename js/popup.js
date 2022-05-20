@@ -1,0 +1,14 @@
+$(function(){
+    $('.button').click(function(){
+        $('.dialog').show();
+    })
+    $('.icon-close').click(function(){
+        $('.dialog').hide();
+    })
+    $('.dialog').click(function(){
+        $('.dialog').hide();
+    })
+    $('.popup').click(function(event){
+        event.stopPropagation();
+    })
+})

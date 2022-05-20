@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 15px;
+}
+html{
+    font-family: "Lato", sans-serif;
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-size: 15px;
+    scroll-behavior: smooth;
+}
+.flex{
+    display: flex;
+}
+.width-100{
+    width: 100%;
+}

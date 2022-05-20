@@ -1,0 +1,42 @@
+.contact .left{
+    width: 50%;
+    height: 81px;
+    font-size: 18px;
+}
+.contact .left .c-icon{
+    font-size: 16px;
+    width: 30px;
+}
+.contact .right{
+    width: 50%;
+    height: 89px;
+}
+.contact .right .c-input{
+    padding: 8px;
+    height: 40px;
+    background-color: #fff;
+    border: 1px solid #ccc!important;
+    margin-right: 24px;
+}
+.right .margin{
+    margin-top: 5px;
+}
+.contact .right .c-input::placeholder{
+    font-size: 16px;
+}
+.contact .right .c-btn{
+    float: right;
+    margin: 16px 0;
+    padding: 8px 16px;
+    color: #fff;
+    background-color: #000;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.contact .right .c-btn:hover{
+    color: #000;
+    background-color: #ccc ;
+}
+.contact .right .c-btn:active{
+    opacity: .8;
+}

@@ -1,0 +1,122 @@
+.dialog{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 50px;
+    background-color: rgba(0, 0, 0, 0.356);
+    animation: fadeDown ease-in-out .5s;
+}
+.popup{
+    width: 900px;
+    box-shadow: 0 4px 10px 0 rgb(0 0 0 / 20%), 0 4px 20px 0 rgb(0 0 0 / 19%);
+    margin: 50px auto;
+}
+.popup .p-header{
+    background-color: #009688;
+    padding: 32px 16px;
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+    letter-spacing: 4px;
+    position: relative;
+}
+.popup .p-header .flex{
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+.popup .p-header .icon-suitcase{
+   margin-right: 16px;
+}
+.popup .p-header .icon-close{
+    font-size: 16px;
+    padding: 8px 16px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.popup .p-header .icon-close:hover{
+    background-color: #ccc;
+}
+.popup .p-header .icon-close:active{
+    opacity: .8;
+}
+.popup .p-content{
+    background-color: #fff;
+    padding: 0 16px;
+    padding-top: 15px;
+}
+.popup .p-content .row{
+    margin-top: 15px;
+}
+.popup .p-content .flex{
+    display: flex;
+    margin-bottom: 15px;
+}
+.popup .p-content .p-title{
+    margin-left: 5px;
+}
+.popup .p-content input{
+    border: 1px solid #ccc!important;
+    padding: 8px;
+    width: 100%;
+}
+.popup .p-content input::placeholder{
+    font-size: 15px;
+}
+.popup .p-content .p-btn{
+    background-color: #009688;
+    text-align: center;
+    padding: 16px;
+    margin: 16px 0;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 600;
+}
+.popup .p-content .p-btn:hover{
+    color: #000 !important;
+    background-color: #ccc;
+}
+.popup .p-content .p-btn:active{
+    opacity: .8;
+}
+.p-content .flex .icon-close{
+    margin: 16px 0;
+    color: #fff!important;
+    background-color: #f44336!important;
+    padding: 8px 16px;
+    cursor: pointer;
+    display: inline-block;
+}
+.p-content .flex .icon-close:hover{
+    color: #000 !important;
+    background-color: #ccc !important;
+}
+.p-content .flex .icon-close:active{
+    opacity: .8;
+}
+.popup .p-content .position{
+    position: relative;
+}
+.p-content .flex .help{
+    margin: 16px 0;
+    font-weight: 600;
+    position: absolute;
+    right: 0;
+}
+.flex .help a{
+    color: #2196F3;
+}
+@keyframes fadeDown{
+    from{
+        opacity: 0;
+        transform: translateY(-100px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

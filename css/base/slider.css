@@ -1,0 +1,22 @@
+.slider{
+    position: relative;
+    margin-top: 46.5px;
+    padding-top: 50%;
+    background: url('../../img/la.jpg') top center / cover no-repeat;
+}
+.slider .text{
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    padding: 32px 16px;
+    color: #fff;
+}
+.slider .text .header-text{
+    margin: 10px 0;
+    font-size: 24px;
+}
+.slider .text .description-text{
+    margin: 15px 0;
+    font-weight: 700;
+}
